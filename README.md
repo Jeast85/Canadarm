@@ -8,14 +8,18 @@ This is the Shuttle version of the Canadarm
 *******************************
 http://creativecommons.org/licenses/by-nc-sa/4.0/
 
+
 ********************************
 ****** INSTALLATION ******
 *******************************
 Extract folder content to your KSP/Gamedata folder
 
+
 ********************************
 ****** USAGE ******
 *******************************
+
+
 
 ********************************
 ****** CHANGELOG ******
