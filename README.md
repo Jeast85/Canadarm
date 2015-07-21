@@ -14,7 +14,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 *******************************
 -	Infernal Robotics (https://github.com/MagicSmokeIndustries/InfernalRobotics/releases/latest)
 -	Kerbal Attachment System (http://forum.kerbalspaceprogram.com/threads/92514-0-24-2-Kerbal-Attachment-System-%28KAS%29-0-4-8-Fixed-for-0-24-2-x86-x64-%29)
-
+-	Rasterpropmonitor (https://github.com/Mihara/RasterPropMonitor/releases/latest)
 
 ********************************
 ****** INSTALLATION ******
@@ -27,7 +27,9 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 ********************************
 ****** USAGE ******
 *******************************
-The Canadarm uses IR for the moving parts and KAS for the effector magnet
+The Canadarm uses IR for the moving parts and KAS for the effector magnet. You can create presets in the VAB (recommended).
+To "grab" stuff with the effector you have to enable the magnet. It is recommended to map this to an action group in the VAB.
+The arm and the magnet both use electrical power so keep this in mind when using the arm. There is a camera mounted in the effector wich you can use via Rasterpropmonitor
 
 
 
