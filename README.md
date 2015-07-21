@@ -11,7 +11,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 ********************************
 ****** INSTALLATION ******
 *******************************
-Extract all folder content to your KSP/Gamedata folder
+Extract folder content to your KSP/Gamedata folder
 
 ********************************
 ****** USAGE ******
