@@ -27,6 +27,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 ********************************
 ****** USAGE ******
 *******************************
+The Canadarm uses IR for the moving parts and KAS for the effector magnet
 
 
 
