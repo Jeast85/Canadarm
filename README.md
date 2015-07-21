@@ -1,12 +1,26 @@
-# Canadarm
+Canadarm 1.0
+========================================
 Canadarm 1 for KSP
 This is the Shuttle version of the Canadarm
 
-## License
+********************************
+****** LICENSE ******
+*******************************
 http://creativecommons.org/licenses/by-nc-sa/4.0/
 
-## Installation
+********************************
+****** INSTALLATION ******
+*******************************
+Extract all folder content to your KSP/Gamedata folder
 
-## Usage
+********************************
+****** USAGE ******
+*******************************
 
-## Changelog
+********************************
+****** CHANGELOG ******
+*******************************
+v1.0
+
+		Features
+		--release version
