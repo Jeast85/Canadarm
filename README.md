@@ -13,6 +13,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 ****** DEPENDENCIES ******
 *******************************
 -	Infernal Robotics (https://github.com/MagicSmokeIndustries/InfernalRobotics/releases/latest)
+-	Kerbal Attachment System (http://forum.kerbalspaceprogram.com/threads/92514-0-24-2-Kerbal-Attachment-System-%28KAS%29-0-4-8-Fixed-for-0-24-2-x86-x64-%29)
 
 
 ********************************
