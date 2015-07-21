@@ -12,7 +12,8 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 ********************************
 ****** INSTALLATION ******
 *******************************
-Extract folder content to your KSP/Gamedata folder
+-	Extract folder content to your KSP/Gamedata folder
+-	(optional) Extract subassembly file to your KSP/saves/profilename/subassemblies folder
 
 
 ********************************
