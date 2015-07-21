@@ -1,7 +1,7 @@
 Canadarm v1.0
 ========================================
-Canadarm 1 for KSP
-This is the Shuttle version of the Canadarm
+Canadarm 1 for KSP.
+This is the Shuttle version of the Canadarm.
 
 ********************************
 ****** LICENSE ******
