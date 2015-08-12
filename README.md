@@ -34,6 +34,11 @@ To "grab" stuff with the effector you have to enable the magnet. It is recommend
 The arm and the magnet both use electrical power so keep this in mind when using the arm. There is a camera mounted in the effector wich you can use via Rasterpropmonitor
 
 
+********************************
+****** KNOWN BUGS ******
+*******************************
+-	Black lines on upperarm and lowerarm
+-	Underarm extend inverted in VAB, works correctly in 3D world
 
 ********************************
 ****** CHANGELOG ******
