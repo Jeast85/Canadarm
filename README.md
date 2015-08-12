@@ -1,7 +1,8 @@
 Canadarm v1.0
 ========================================
 Canadarm 1 for KSP.
-This is the Shuttle version of the Canadarm.
+This is the Space Shuttle Canadarm. Compatible with the stock cargobay (long verion), CSS by Dragon and the One Piece Shuttle by MIKE-NZ. Not (yet) compatible with the KSO.
+ModuleManager adds a node to the cargobay for attachement.
 
 ********************************
 ****** LICENSE ******
@@ -12,6 +13,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 ********************************
 ****** DEPENDENCIES ******
 *******************************
+-	Modulemanager (included)
 -	Infernal Robotics (https://github.com/MagicSmokeIndustries/InfernalRobotics/releases/latest)
 -	Kerbal Attachment System (http://forum.kerbalspaceprogram.com/threads/92514-0-24-2-Kerbal-Attachment-System-%28KAS%29-0-4-8-Fixed-for-0-24-2-x86-x64-%29)
 -	Rasterpropmonitor (https://github.com/Mihara/RasterPropMonitor/releases/latest)
@@ -36,7 +38,7 @@ The arm and the magnet both use electrical power so keep this in mind when using
 ********************************
 ****** CHANGELOG ******
 *******************************
-v1.0
+v0.95
 
 		Features
 		--release version
