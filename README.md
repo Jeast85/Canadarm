@@ -29,6 +29,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 ********************************
 ****** USAGE ******
 *******************************
+The mod adds an attachment node to the CSS, Onepiece and stock cargobays. This is where you should attach the Shoulder part. The shoulder part cannot be surface attached!
 The Canadarm uses IR for the moving parts and KAS for the effector magnet. You can create presets in the VAB (recommended).
 To "grab" stuff with the effector you have to enable the magnet. It is recommended to map this to an action group in the VAB.
 The arm and the magnet both use electrical power so keep this in mind when using the arm. There is a camera mounted in the effector wich you can use via Rasterpropmonitor
