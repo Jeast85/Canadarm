@@ -27,6 +27,14 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
 ********************************
+****** FEATURES ******
+*******************************
+-	Working smooth, no wobble!
+-	Camera in effector, for IVA use
+-	Effector uses magnet. This is not realistic but this is the reason there is no wobble. And you can pick up Kerbals with the arm!
+
+
+********************************
 ****** USAGE ******
 *******************************
 The mod adds an attachment node to the CSS, Onepiece and stock cargobays. This is where you should attach the Shoulder part. The shoulder part cannot be surface attached!
