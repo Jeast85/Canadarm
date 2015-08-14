@@ -56,6 +56,9 @@ v0.96
 
 		BugFixes
 		--parts unclickable in VAB and 3d world. Colliders fixed
+		
+		Features
+		--added mini AVC for version checking
 v0.95
 
 		Features
