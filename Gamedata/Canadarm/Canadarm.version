@@ -1,7 +1,7 @@
 Version File Example
 {
     "NAME":"Canadarm",
-    "URL":"https://github.com/Jeast85/Canadarm/blob/master/Gamedata/Canadarm/Canadarm.version",
+    "URL":"https://raw.githubusercontent.com/Jeast85/Canadarm/master/Gamedata/Canadarm/Canadarm.version",
     "DOWNLOAD":"https://github.com/Jeast85/Canadarm/releases",
     "GITHUB":
     {
