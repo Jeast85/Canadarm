@@ -1,4 +1,4 @@
-Canadarm v0.96
+Canadarm v1.00
 ========================================
 Canadarm 1 for KSP.
 This is the Space Shuttle Canadarm. Compatible with the stock cargobay (long verion), CSS by Dragon and the One Piece Shuttle by MIKE-NZ. Not (yet) compatible with the KSO.
@@ -30,7 +30,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 ****** FEATURES ******
 *******************************
 -	Working smooth, no wobble!
--	Camera in effector, for IVA use
+-	Camera in effector and on lowerarm, for IVA use
 -	Effector uses magnet. This is not realistic but this is the reason there is no wobble. And you can pick up Kerbals with the arm!
 
 
@@ -46,12 +46,19 @@ The arm and the magnet both use electrical power so keep this in mind when using
 ********************************
 ****** KNOWN BUGS ******
 *******************************
--	Black lines on upperarm and lowerarm
--	Underarm extend inverted in VAB, works correctly in 3D world
+
 
 ********************************
 ****** CHANGELOG ******
 *******************************
+v1.00
+
+		BugFixes
+		--fixed black lines on textures
+		--removed extender (not realistic)
+		
+		Features
+		--added camera to lowerarm
 v0.96
 
 		BugFixes
