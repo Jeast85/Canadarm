@@ -25,6 +25,18 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 -	Extract folder content to your KSP/Gamedata folder
 -	(optional) Extract subassembly file to your KSP/saves/profilename/subassemblies folder
 
+********************************
+****** ASSEMBLY ******
+*******************************
+-	Nodes are automaticly added to the stock, CSS and Space Shuttle Pack cargobays
+-	Attach the Shoulder part to the node
+-	Attach the Upperarm to the shoulder
+-	Attach the Lowerarm to the upperarm
+-	Attach the Wrist to the lowerarm
+-	Attach the End to the wrist
+
+-	Change the camera id's on the End and Lowerarm parts (right click on them), they both are 1 at default. Make sure they have unique id's.
+
 
 ********************************
 ****** FEATURES ******
@@ -55,7 +67,7 @@ v1.00
 
 		BugFixes
 		--fixed black lines on textures
-		--removed extender (not realistic)
+		--removed extender
 		
 		Features
 		--added camera to lowerarm
