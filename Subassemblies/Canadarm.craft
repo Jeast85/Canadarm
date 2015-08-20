@@ -1,15 +1,15 @@
 ship = Canadarm
 version = 1.0.4
-description = No description.
+description = Space shuttle Canadarm
 type = None
-size = 0.3305513,8.899008,0.7142641
+size = 0.3448343,9.100441,0.742498
 PART
 {
-	part = carmshoulder_4294555320
+	part = carmshoulder_4294551140
 	partName = Part
-	pos = -0.7570435,16.4767,0.7564115
+	pos = -2.228825,23.36649,0.2813664
 	attPos = 0,0,0
-	attPos0 = -0.7570435,16.4767,0.7564115
+	attPos0 = -2.228825,23.36649,0.2813664
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -24,8 +24,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = carmupperarm_4294554264
-	attN = next,carmupperarm_4294554264
+	link = carmupperarm_4294549110
+	attN = next,carmupperarm_4294549110
 	EVENTS
 	{
 	}
@@ -59,7 +59,7 @@ PART
 		rotateMax = 360
 		rotateMin = 0
 		rotation = 0
-		servoName = Shoulder-Yaw
+		servoName = Shoulder Yaw
 		speedTweak = 1
 		accelTweak = 4
 		translateMax = 3
@@ -168,9 +168,9 @@ PART
 }
 PART
 {
-	part = carmupperarm_4294554264
+	part = carmupperarm_4294549110
 	partName = Part
-	pos = -0.7570435,16.4767,0.1564115
+	pos = -2.228825,23.36649,-0.3186336
 	attPos = 0,0,0
 	attPos0 = 0,0,-0.6
 	rot = 0,0,0,1
@@ -187,9 +187,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = carmlowerarm_4294553268
-	attN = base,carmshoulder_4294555320
-	attN = bottom,carmlowerarm_4294553268
+	link = carmlowerarm_4294548104
+	attN = base,carmshoulder_4294551140
+	attN = bottom,carmlowerarm_4294548104
 	EVENTS
 	{
 	}
@@ -332,11 +332,11 @@ PART
 }
 PART
 {
-	part = carmlowerarm_4294553268
+	part = carmlowerarm_4294548104
 	partName = Part
-	pos = -0.7570435,12.8917,0.1564115
+	pos = -2.228825,19.78149,-0.3186336
 	attPos = 0,0,0
-	attPos0 = 0,-3.585,0
+	attPos0 = 0,-3.584999,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -351,9 +351,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = carmlowerarmex_4294552432
-	attN = base,carmupperarm_4294554264
-	attN = bottom,carmlowerarmex_4294552432
+	link = carmwrist_4294546956
+	attN = base,carmupperarm_4294549110
+	attN = bottom,carmwrist_4294546956
 	EVENTS
 	{
 	}
@@ -496,11 +496,11 @@ PART
 }
 PART
 {
-	part = carmlowerarmex_4294552432
+	part = carmwrist_4294546956
 	partName = Part
-	pos = -0.7570435,9.981704,0.1564115
+	pos = -2.228825,16.19649,-0.3186336
 	attPos = 0,0,0
-	attPos0 = 0,-2.91,0
+	attPos0 = 0,-3.585,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -515,173 +515,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = carmwrist_4294549906
-	attN = base,carmlowerarm_4294553268
-	attN = wrist,carmwrist_4294549906
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = MuMechToggle
-		isEnabled = True
-		customSpeed = 1
-		forwardKey = 
-		freeMoving = False
-		groupName = New Group
-		invertAxis = False
-		isMotionLock = False
-		limitTweakable = False
-		limitTweakableFlag = False
-		maxTweak = 2
-		minTweak = 0
-		on = False
-		pitchSet = 1
-		soundSet = 0.5
-		revRotateKey = 
-		reverseKey = 
-		rotateKey = 
-		rotateLimits = False
-		rotateMax = 360
-		rotateMin = 0
-		rotation = 0
-		servoName = Lower Arm Extend
-		speedTweak = 1
-		accelTweak = 4
-		translateMax = 2
-		translateMin = 0
-		translation = 0
-		translationDelta = 0
-		presetPositionsSerialized = 
-		defaultPosition = 0
-		maxTweak_UIFlight
-		{
-			controlEnabled = True
-			minValue = -360
-			maxValue = 360
-			incrementSlide = 0.01
-		}
-		minTweak_UIFlight
-		{
-			controlEnabled = True
-			minValue = -360
-			maxValue = 360
-			incrementSlide = 0.01
-		}
-		speedTweak_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			incrementLarge = 1
-			incrementSmall = 0.5
-			incrementSlide = 0.05
-		}
-		accelTweak_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0.05
-			incrementLarge = 1
-			incrementSmall = 0.5
-			incrementSlide = 0.05
-		}
-		EVENTS
-		{
-			LimitTweakableToggle
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Engage Limits
-				guiName = Engage Limits
-				category = Engage Limits
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			InvertAxisToggle
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Invert Axis
-				guiName = Invert Axis
-				category = Invert Axis
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			MotionLockToggle
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Engage Lock
-				guiName = Engage Lock
-				category = Engage Lock
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			MotionLockToggle
-			{
-				actionGroup = None
-			}
-			MoveNextPresetAction
-			{
-				actionGroup = None
-			}
-			MovePrevPresetAction
-			{
-				actionGroup = None
-			}
-			MovePlusAction
-			{
-				actionGroup = None
-			}
-			MoveMinusAction
-			{
-				actionGroup = None
-			}
-			MoveCenterAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = carmwrist_4294549906
-	partName = Part
-	pos = -0.7570435,9.306704,0.1564115
-	attPos = 0,0,0
-	attPos0 = 0,-0.6750002,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	link = carmend_4294548876
-	attN = base,carmlowerarmex_4294552432
-	attN = end,carmend_4294548876
+	link = carmend_4294545540
+	attN = base,carmlowerarm_4294548104
+	attN = end,carmend_4294545540
 	EVENTS
 	{
 	}
@@ -824,11 +660,11 @@ PART
 }
 PART
 {
-	part = carmend_4294548876
+	part = carmend_4294545540
 	partName = Part
-	pos = -0.7570435,8.826704,0.1564115
+	pos = -2.228825,15.71649,-0.3186336
 	attPos = 0,0,0
-	attPos0 = 0,-0.4799995,0
+	attPos0 = 0,-0.4800005,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -843,7 +679,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	attN = base,carmwrist_4294549906
+	attN = base,carmwrist_4294546956
 	EVENTS
 	{
 	}
@@ -988,7 +824,7 @@ PART
 		name = JSIExternalCameraSelector
 		isEnabled = True
 		current = 1
-		showCones = False
+		showCones = True
 		showCones_UIFlight
 		{
 			controlEnabled = True
@@ -1022,6 +858,40 @@ PART
 		}
 		ACTIONS
 		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleMagnet
+		isEnabled = True
+		EVENTS
+		{
+			ContextMenuMagnet
+			{
+				active = True
+				guiActive = True
+				guiIcon = Magnet On/Off
+				guiName = Magnet On/Off
+				category = Magnet On/Off
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionGroupMagnetToggle
+			{
+				actionGroup = None
+			}
+			ActionGroupMagnetOn
+			{
+				actionGroup = None
+			}
+			ActionGroupMagnetOff
+			{
+				actionGroup = None
+			}
 		}
 	}
 }

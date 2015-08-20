@@ -1,4 +1,4 @@
-Canadarm v0.96
+Canadarm v1.00
 ========================================
 Canadarm 1 for KSP.
 This is the Space Shuttle Canadarm. Compatible with the stock cargobay (long verion), CSS by Dragon and the One Piece Shuttle by MIKE-NZ. Not (yet) compatible with the KSO.
@@ -25,12 +25,24 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 -	Extract folder content to your KSP/Gamedata folder
 -	(optional) Extract subassembly file to your KSP/saves/profilename/subassemblies folder
 
+********************************
+****** ASSEMBLY ******
+*******************************
+-	Nodes are automaticly added to the stock, CSS and Space Shuttle Pack cargobays
+-	Attach the Shoulder part to the node
+-	Attach the Upperarm to the shoulder
+-	Attach the Lowerarm to the upperarm
+-	Attach the Wrist to the lowerarm
+-	Attach the End to the wrist
+
+-	Change the camera id's on the End and Lowerarm parts (right click on them), they both are 1 at default. Make sure they have unique id's.
+
 
 ********************************
 ****** FEATURES ******
 *******************************
 -	Working smooth, no wobble!
--	Camera in effector, for IVA use
+-	Camera in effector and on lowerarm, for IVA use
 -	Effector uses magnet. This is not realistic but this is the reason there is no wobble. And you can pick up Kerbals with the arm!
 
 
@@ -46,12 +58,19 @@ The arm and the magnet both use electrical power so keep this in mind when using
 ********************************
 ****** KNOWN BUGS ******
 *******************************
--	Black lines on upperarm and lowerarm
--	Underarm extend inverted in VAB, works correctly in 3D world
+
 
 ********************************
 ****** CHANGELOG ******
 *******************************
+v1.00
+
+		BugFixes
+		--fixed black lines on textures
+		--removed extender
+		
+		Features
+		--added camera to lowerarm
 v0.96
 
 		BugFixes
