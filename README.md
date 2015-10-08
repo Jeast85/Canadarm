@@ -1,4 +1,4 @@
-Canadarm v1.50
+Canadarm v1.51
 ========================================
 Canadarm 1 for KSP.
 This is the Space Shuttle Canadarm. Compatible with the stock cargobay (long verion), CSS by Dragon and the One Piece Shuttle by MIKE-NZ. Not (yet) compatible with the KSO.
@@ -63,10 +63,12 @@ The arm and the magnet both use electrical power so keep this in mind when using
 ********************************
 ****** CHANGELOG ******
 *******************************
-v1.50
+v1.51
 
 		BugFixes
 		--MikeNZ's shuttle cargobay node fixed
+v1.50
+
 		Features
 		--added new meshes and textures
 		--added rotation joint axis to the lowerarm
