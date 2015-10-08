@@ -65,9 +65,12 @@ The arm and the magnet both use electrical power so keep this in mind when using
 *******************************
 v1.50
 
+		BugFixes
+		--MikeNZ's shuttle cargobay node fixed
 		Features
 		--added new meshes and textures
 		--added rotation joint axis to the lowerarm
+		--removed angle lock on upperarm pitch
 v1.00
 
 		BugFixes
