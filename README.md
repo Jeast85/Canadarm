@@ -1,4 +1,4 @@
-Canadarm v1.51
+Canadarm v1.6
 ========================================
 Canadarm 1 for KSP.
 This is the Space Shuttle Canadarm. Compatible with the stock cargobay (long verion), CSS by Dragon and the One Piece Shuttle by MIKE-NZ. Not (yet) compatible with the KSO.
@@ -16,6 +16,10 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 -	Modulemanager (included)
 -	Infernal Robotics (https://github.com/MagicSmokeIndustries/InfernalRobotics/releases/latest)
 -	Kerbal Attachment System (http://forum.kerbalspaceprogram.com/threads/92514-0-24-2-Kerbal-Attachment-System-%28KAS%29-0-4-8-Fixed-for-0-24-2-x86-x64-%29)
+
+********************************
+****** OPTIONAL ******
+*******************************
 -	Rasterpropmonitor (https://github.com/Mihara/RasterPropMonitor/releases/latest)
 
 ********************************
@@ -33,7 +37,8 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 -	Attach the Upperarm to the shoulder
 -	Attach the Lowerarm to the upperarm
 -	Attach the Wrist to the lowerarm
--	Attach the End to the wrist
+-	Attach the Endwrist to the wrist
+-	Attach the End to the endwrist
 
 -	Change the camera id's on the End and Lowerarm parts (right click on them), they both are 1 at default. Make sure they have unique id's.
 
@@ -42,7 +47,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 ****** FEATURES ******
 *******************************
 -	Working smooth, no wobble!
--	Camera in effector and on lowerarm, for IVA use
+-	Camera in effector and on lowerarm, for IVA use (optional by using RPM)
 -	Effector uses magnet. This is not realistic but this is the reason there is no wobble. And you can pick up Kerbals with the arm!
 
 
@@ -63,6 +68,13 @@ The arm and the magnet both use electrical power so keep this in mind when using
 ********************************
 ****** CHANGELOG ******
 *******************************
+v1.6
+
+		Features
+		--Updated to KSP 1.1
+		--Model reworked from scratch
+		--Textures redone from scratch
+		--Optimized by reducing texture numbers, all parts use one texture now
 v1.51
 
 		BugFixes
