@@ -1,4 +1,4 @@
-Canadarm v1.6
+Canadarm v1.61
 ========================================
 Canadarm 1 for KSP.
 This is the Space Shuttle Canadarm. Compatible with the stock cargobay (long verion), CSS by Dragon and the One Piece Shuttle by MIKE-NZ. Not (yet) compatible with the KSO.
