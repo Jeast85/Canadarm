@@ -68,6 +68,10 @@ The arm and the magnet both use electrical power so keep this in mind when using
 ********************************
 ****** CHANGELOG ******
 *******************************
+v1.61
+		
+		BugFixes
+		--Changed textures from MBM to DDS to fix the black textures and reduce size
 v1.6
 
 		Features
