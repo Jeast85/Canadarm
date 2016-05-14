@@ -1,8 +1,8 @@
-Canadarm v1.62
+Canadarm v1.7
 ========================================
 Canadarm 1 for KSP.
-This is the Space Shuttle Canadarm. Compatible with the stock cargobay (long verion), CSS by Dragon and the One Piece Shuttle by MIKE-NZ. Not (yet) compatible with the KSO.
-ModuleManager adds a node to the cargobay for attachement.
+This is the Space Shuttle Canadarm. Compatible with the stock cargobay (long verion), Decqs Space Shuttle System, CSS by Dragon and the One Piece Shuttle by MIKE-NZ.
+ModuleManager adds a node to the cargobays for attachement.
 
 ********************************
 ****** LICENSE ******
@@ -18,9 +18,10 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 -	Kerbal Attachment System (http://forum.kerbalspaceprogram.com/threads/92514-0-24-2-Kerbal-Attachment-System-%28KAS%29-0-4-8-Fixed-for-0-24-2-x86-x64-%29)
 
 ********************************
-****** OPTIONAL ******
+****** RECOMMENDED ******
 *******************************
 -	Rasterpropmonitor (https://github.com/Mihara/RasterPropMonitor/releases/latest)
+-	Kerbal Joint Reinforcement (http://forum.kerbalspaceprogram.com/index.php?/topic/50911-112-kerbal-joint-reinforcement-v317-43016-now-with-win64-compatibility/)
 
 ********************************
 ****** INSTALLATION ******
@@ -39,6 +40,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 -	Attach the Wrist to the lowerarm
 -	Attach the Endwrist to the wrist
 -	Attach the End to the endwrist
+-	(Optional) Attach the grapple port to the object you want to lift
 
 -	Change the camera id's on the End and Lowerarm parts (right click on them), they both are 1 at default. Make sure they have unique id's.
 
@@ -58,6 +60,7 @@ The mod adds an attachment node to the CSS, Onepiece and stock cargobays. This i
 The Canadarm uses IR for the moving parts and KAS for the effector magnet. You can create presets in the VAB (recommended).
 To "grab" stuff with the effector you have to enable the magnet. It is recommended to map this to an action group in the VAB.
 The arm and the magnet both use electrical power so keep this in mind when using the arm. There is a camera mounted in the effector wich you can use via Rasterpropmonitor
+Beside the magnet you can also use the supplied grappling port instead.
 
 
 ********************************
@@ -68,6 +71,13 @@ The arm and the magnet both use electrical power so keep this in mind when using
 ********************************
 ****** CHANGELOG ******
 *******************************
+v1.7
+
+		Features
+		--Grappling port added
+		
+		BugFixes
+		--RPM fixed and enabled
 v1.62
 
 		BugFixes
