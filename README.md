@@ -1,4 +1,4 @@
-Canadarm v1.7
+Canadarm v1.71
 ========================================
 Canadarm 1 for KSP.
 This is the Space Shuttle Canadarm. Compatible with the stock cargobay (long verion), Decqs Space Shuttle System, CSS by Dragon and the One Piece Shuttle by MIKE-NZ.
@@ -71,6 +71,10 @@ Beside the magnet you can also use the supplied grappling port instead.
 ********************************
 ****** CHANGELOG ******
 *******************************
+v1.71
+
+		BugFixes
+		--Fixed incorrect version
 v1.7
 
 		Features
